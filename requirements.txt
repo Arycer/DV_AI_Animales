@@ -1,0 +1,9 @@
+tensorflow
+keras
+Pillow
+numpy
+aiohttp
+tqdm
+torch
+transformers
+python-dotenv
