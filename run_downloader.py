@@ -28,7 +28,7 @@ ALL_DIR = os.path.join("all")
 for folder in [DOG_DIR, CAT_DIR, MOUSE_DIR, REJECTED_DIR, ALL_DIR]:
     os.makedirs(folder, exist_ok=True)
 
-SEM_LIMIT = 25
+SEM_LIMIT = 10
 
 # === CARGAR MODELO LOCAL ===
 print("🧠 Cargando modelo OWL-ViT (detección local de ratones)...")
