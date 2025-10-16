@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Carpetas a eliminar
-folders_to_delete = ["all", "all_renamed", "cats", "dogs", "mice", "rejected_mice"]
+folders_to_delete = ["all", "all_renamed", "cats", "dogs", "mice", "rejected", "chickens", "cows", "pandas"]
 
 for folder in folders_to_delete:
     if os.path.exists(folder):
